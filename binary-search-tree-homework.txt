@@ -1,0 +1,32 @@
+Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+Root (Kök): 7 root olarak belirlenir.
+
+Root: 7
+5 ekleniyor: 5, root olan 7den küçük olduğu için soluna eklenir.
+
+Root: 7, solunda: 5
+1 ekleniyor: 1, root olan 7den küçük olduğu için sola gider. Solundaki 5ten de küçük olduğu için 5in soluna eklenir.
+
+Root: 7, solunda: 5, 5in solunda: 1
+8 ekleniyor: 8, root olan 7den büyük olduğu için sağa eklenir.
+
+Root: 7, solunda: 5, 5in solunda: 1, sağında: 8
+3 ekleniyor: 3, root olan 7den küçük olduğu için sola gider. 5ten de küçük olduğu için sola gider. 1den büyük olduğu için 1in sağına eklenir.
+
+Root: 7, solunda: 5, 5in solunda: 1, 1in sağında: 3
+6 ekleniyor: 6, root olan 7'den küçük olduğu için sola gider. 5ten büyük olduğu için 5in sağına eklenir.
+
+Root: 7, solunda: 5, 5in solunda: 1, 1in sağında: 3, 5in sağında: 6
+0 ekleniyor: 0, root olan 7den küçük olduğu için sola gider. 5ten küçük olduğu için sola gider. 1den de küçük olduğu için 1in soluna eklenir.
+
+Root: 7, solunda: 5, 5in solunda: 1, 1in solunda: 0, 1in sağında: 3
+9 ekleniyor: 9, root olan 7den büyük olduğu için sağa gider. 8den de büyük olduğu için 8in sağına eklenir.
+
+Root: 7, solunda: 5, 5in solunda: 1, 1in solunda: 0, 1in sağında: 3, 5in sağında: 6, 7nin sağında: 8, 8in sağında: 9
+4 ekleniyor: 4, root olan 7den küçük olduğu için sola gider. 5ten küçük olduğu için sola gider. 1den büyük olduğu için sağa gider. 3ten de büyük olduğu için 3ün sağına eklenir.
+
+Root: 7, solunda: 5, 5in solunda: 1, 1in solunda: 0, 1in sağında: 3, 3ün sağında: 4, 5in sağında: 6, 7nin sağında: 8, 8in sağında: 9
+2 ekleniyor: 2, root olan 7den küçük olduğu için sola gider. 5ten küçük olduğu için sola gider. 1den büyük olduğu için sağa gider. 3ten küçük olduğu için 3ün soluna eklenir.
+
+Root: 7, solunda: 5, 5in solunda: 1, 1in solunda: 0, 1in sağında: 3, 3ün solunda: 2, 3ün sağında: 4, 5in sağında: 6, 7nin sağında: 8, 8in sağında: 9
